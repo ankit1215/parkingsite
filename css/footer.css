@@ -1,0 +1,80 @@
+footer {
+  background-color: #1a1819;
+  width: 100%;
+  height: auto;
+  padding: 6em 0 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer * {
+  color: #f0f0f0 !important;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social a {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social a i {
+  width: 20px;
+  height: 20px;
+}
+
+footer .navLinks {
+  margin-top: 50px;
+}
+
+footer .navLinks ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .navLinks ul a {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+footer .navLinks ul a:nth-child(3) {
+  margin: 0;
+}
+
+footer p {
+  line-height: 2em;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=footer.css.map */

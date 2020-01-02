@@ -1,0 +1,85 @@
+$black: #1a1819;
+$blue: #500fff;
+
+nav {
+    width: 100%;
+    height: 100px;
+    // background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .navWrapper {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase !important;
+
+        .logo {
+            width: max-content;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 40px;
+                height: auto;
+            }
+        }
+
+        .navItems {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            .navItemsWrapper {
+                border-top: 2px solid $black;
+                padding-top: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between !important;
+
+                .navLinks {
+                    ul {
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+
+                        a {
+                            margin-right: 20px;
+
+                            &:nth-child(3) {
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+
+                .navAuth {
+                    display: flex;
+                    align-items: center;
+
+                    button {
+                        width: 100px;
+                        text-transform: uppercase;
+                        color: #f0f0f0;
+                        background-color: $black;
+
+                        &:nth-child(1) {
+                            margin-right: 20px;
+                        }
+
+                        &:nth-child(2) {
+                            background-color: transparent;
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
