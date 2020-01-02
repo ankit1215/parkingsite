@@ -1,0 +1,54 @@
+.logo{
+    color: white; 
+    padding: 10px; 
+    left: 4%; 
+    position: absolute;
+    font-family: sans-serif;
+}
+.heading{
+    color:white; 
+    font-family:sans-serif; 
+    line-height: 1.3em;
+    top: 30%;
+    position:absolute;
+    left:50%;
+    word-spacing:1px; 
+    font-size: 50px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-row-gap:1em; 
+}
+.wrapper > div{
+    background-color:lightgrey;
+    padding:1em;
+}
+
+.wrapper > div:nth-child(odd){
+    background:orangered;
+}
+.one{
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+.wrapper2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding-left:10%;
+    padding-right: 10%;
+
+}
+.wrapper2 > div{
+    background-color:grey;
+    padding: 1em;
+}
+.wrapper2 > div:nth-child(odd){
+    background-color: orangered;
+
+}
