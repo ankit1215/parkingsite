@@ -66,11 +66,11 @@ body {
   width: 55%;
   height: 100%;
   padding: 2em;
-  background-color: #1a1819;
+  background-color: #f4f4f4;
 }
 
 .dashboard .dashboardContent * {
-  color: #f0f0f0;
+  color: #1a1819;
 }
 
 .dashboard .dashboardContent .dashboardContentHead {
@@ -187,7 +187,7 @@ body {
 
 .dashboard .dashboardContent .bookings .bookingsGridContainer .booking {
   background-color: #9698d5;
-  padding: 1em;
+  padding: 0.7em 1em;
   border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,9 +198,9 @@ body {
 .dashboard .dashboardContent .bookings .bookingsGridContainer .booking .bookingBadge {
   width: 60px;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,5 +212,59 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.dashboard .profile {
+  width: 25%;
+  height: 100%;
+  padding: 2em;
+}
+
+.dashboard .profile .profileInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard .profile .profileInfo .logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard .profile .profileInfo .profileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-color: #1a1819;
+  position: relative;
+}
+
+.dashboard .profile .profileInfo .profileImg .profileImgEditButton {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+  right: 0;
+  border-radius: 50%;
+  background-color: #4e4cac;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+.dashboard .profile .profileInfo h1,
+.dashboard .profile .profileInfo p {
+  text-align: center;
 }
 /*# sourceMappingURL=dashboard.css.map */
