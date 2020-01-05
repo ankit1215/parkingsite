@@ -12,14 +12,14 @@
     width: 20%;
     height: 100%;
     padding-top: 2em;
-    
+    position: relative;
+    background: #eee;
 }
 .nav-link ul{
-    position: absolute;
     padding-left: 50px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    display: inline;
+    flex-direction: column;
     font-size: 20px;
     text-decoration: none;
 }
@@ -36,17 +36,22 @@
     display: grid;
 
 }
+.dashboardContainer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .dashboardContainer h1 {
     color: white;
-    display: flex;
     padding-left: 20px;
-    margin-bottom: 20px;
     font-family: sans-serif;
 }
 .dashboardContainer i{
     padding-left: 100%;
     color: white;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 15px;
     padding: 1em;
     background-color: #8c8ff0;
