@@ -5,5 +5,5 @@ let mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
 let yyyy = today.getFullYear();
 let days = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
 
-today = `${dd}/${mm}/${yyyy}`;
+today = `${dd}/${mm}/${yyyy} at ${today.getHours()}:${today.getMinutes()}`;
 currentDate.innerHTML = `${today} <i class="fas fa-search"></i>`;
