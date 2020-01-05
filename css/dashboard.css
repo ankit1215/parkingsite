@@ -96,6 +96,7 @@
 }
 .dashboardHead{
     display: flex;
+    justify-content: space-between; /* This property is used to separate the elements properly*/
     margin-bottom: 20px;
 }
 .dashboardHead h1{
@@ -105,7 +106,7 @@
 }
 .dashboardHead p{
     color: white;
-    padding-left: 68%;
+    /* padding-left: 68%; Never separate elements like this */
     font-family: sans-serif;
 }
 .dashboardGridBooking{
