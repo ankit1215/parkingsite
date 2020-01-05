@@ -12,23 +12,57 @@
     width: 20%;
     height: 100%;
     padding-top: 2em;
+    
+}
+.nav-link ul{
+    position: absolute;
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-link ul a{
+    width: 100%;
+    margin-bottom:50px;
+    display: flex;
 }
 .dashboard {
     width: 55%;
-    height: 100%;
+    height: 100vh;
     background-color: #1a1819;
     padding-top: 2em;
     display: grid;
+
 }
 .dashboardContainer h1 {
     color: white;
     display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
 }
+.dashboardContainer i{
+    padding-left: 100%;
+    color: white;
+    position: absolute;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #8c8ff0;
+}
+.dashboardContainer i:hover{
+    background-color: teal;
+    color:white;
+}
+
 .dashboardContent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, max-content);
     grid-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .dashboardContent #first-box {
     height: 150px;
@@ -50,4 +84,53 @@
     border-radius: 20px;
     grid-row: 2/-1;
     grid-column: 3/-1;
+}
+.dashboardheading{
+    width: 100%;
+    margin-top:20px; 
+}
+.dashboardHead{
+    display: flex;
+    margin-bottom: 20px;
+}
+.dashboardHead h1{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.dashboardHead p{
+    color: white;
+    padding-left: 68%;
+    font-family: sans-serif;
+}
+.dashboardGridBooking{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#1a1819;
+
+}
+.dashboardBooking{
+    background-color: #8c8ff0;
+    padding: 1em;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+
+}
+.FirstBooking{
+    font-size:25px;
+    width: 60px;
+    height: 60px;
+    background-color: #7073da;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
 }
