@@ -140,3 +140,49 @@
     font-weight: bold;
     padding: 15px;
 }
+.MainHead{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.heading h1{
+    padding: 25px;
+    font-family: sans-serif;
+}
+.heading i{
+    font-size: 30px;
+}
+.heading i:hover{
+    color: aliceblue;
+    background-color: grey;
+}
+
+.circle{
+    position: absolute;
+    padding: 50px; 
+    border-radius: 50px;
+    color:black;
+    background-color: black;    
+    width: 50px;
+    margin:0 auto;
+}
+.head{
+    text-align: center;
+    font-family: sans-serif;
+}
+.head h1{
+    top:30%;
+    position: absolute;
+}
+.head p{
+    top:34%;
+    position: absolute;
+}
