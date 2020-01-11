@@ -15,7 +15,7 @@
     position: relative;
     background: #eee;
 }
-.nav-link ul{
+.nav-link ul {
     padding-left: 50px;
     /* width: 100%; */
     display: flex;
@@ -23,9 +23,9 @@
     font-size: 20px;
     text-decoration: none;
 }
-.nav-link ul a{
+.nav-link ul a {
     width: 100%;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     display: flex;
 }
 .dashboard {
@@ -34,10 +34,9 @@
     background-color: #1a1819;
     padding-top: 2em;
     display: grid;
-
 }
 .dashboardContainer {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
@@ -48,7 +47,7 @@
     padding-left: 20px;
     font-family: sans-serif;
 }
-.dashboardContainer i{
+.dashboardContainer i {
     padding-left: 100%;
     color: white;
     /* position: absolute; */
@@ -56,9 +55,9 @@
     padding: 1em;
     background-color: #8c8ff0;
 }
-.dashboardContainer i:hover{
+.dashboardContainer i:hover {
     background-color: teal;
-    color:white;
+    color: white;
 }
 
 .dashboardContent {
@@ -90,35 +89,34 @@
     grid-row: 2/-1;
     grid-column: 3/-1;
 }
-.dashboardheading{
+.dashboardheading {
     width: 100%;
-    margin-top:20px; 
+    margin-top: 20px;
 }
-.dashboardHead{
+.dashboardHead {
     display: flex;
     justify-content: space-between; /* This property is used to separate the elements properly*/
     margin-bottom: 20px;
 }
-.dashboardHead h1{
+.dashboardHead h1 {
     color: white;
     font-family: sans-serif;
     padding-left: 20px;
 }
-.dashboardHead p{
+.dashboardHead p {
     color: white;
     /* padding-left: 68%; Never separate elements like this */
     font-family: sans-serif;
 }
-.dashboardGridBooking{
+.dashboardGridBooking {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color:#1a1819;
-
+    background-color: #1a1819;
 }
-.dashboardBooking{
+.dashboardBooking {
     background-color: #8c8ff0;
     padding: 1em;
     border-radius: 15px;
@@ -126,10 +124,9 @@
     position: relative;
     color: white;
     font-family: sans-serif;
-
 }
-.FirstBooking{
-    font-size:25px;
+.FirstBooking {
+    font-size: 25px;
     width: 60px;
     height: 60px;
     background-color: #7073da;
@@ -140,49 +137,42 @@
     font-weight: bold;
     padding: 15px;
 }
-.MainHead{
-    text-align: center;
+.MainHead {
+    /* text-align: center; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 25%;
 }
-.heading{
-    display:flex;
+.heading {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-.heading h1{
+.heading h1 {
     padding: 25px;
     font-family: sans-serif;
 }
-.heading i{
+.heading i {
     font-size: 30px;
 }
-.heading i:hover{
+.heading i:hover {
     color: aliceblue;
     background-color: grey;
 }
 
-.circle{
-    position: absolute;
-    padding: 50px; 
-    border-radius: 50px;
-    color:black;
-    background-color: black;    
-    width: 50px;
-    margin:0 auto;
+.circle {
+    /* position: absolute;  You fucker ankit, you still don't know when to use position: absolute; asshole */
+    /* padding: 50px;  */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: black;
+    background-color: black;
+    margin: 0 auto 40px auto;
 }
-.head{
+.head {
     text-align: center;
     font-family: sans-serif;
-}
-.head h1{
-    top:30%;
-    position: absolute;
-}
-.head p{
-    top:34%;
-    position: absolute;
 }
