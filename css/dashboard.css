@@ -33,7 +33,7 @@
     height: 100vh;
     background-color: #1a1819;
     padding-top: 2em;
-    display: grid;
+    display: grid; 
 }
 .dashboardContainer {
     display: flex;
@@ -143,6 +143,7 @@
     flex-direction: column;
     /* justify-content: center; */
     width: 25%;
+    height: 100%;
 }
 .heading {
     display: flex;
