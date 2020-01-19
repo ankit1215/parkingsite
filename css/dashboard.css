@@ -1,270 +1,270 @@
 body {
-  background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 .dashboard {
-  width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .dashboard .loggedNav {
-  width: 20%;
-  height: 100%;
-  padding-top: 2em;
+    width: 20%;
+    height: 100%;
+    padding-top: 2em;
 }
 
 .dashboard .loggedNav ul {
-  position: relative;
-  padding: 0 3em;
-  width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+    position: relative;
+    padding: 0 3em;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .dashboard .loggedNav ul a {
-  width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 40px;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .dashboard .loggedNav ul a:nth-child(1) {
-  margin-bottom: 100px !important;
+    margin-bottom: 100px !important;
 }
 
 .dashboard .loggedNav ul a img {
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
 }
 
 .dashboard .loggedNav ul a svg {
-  width: 25px;
-  height: 25px;
-  margin-right: 20px !important;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px !important;
 }
 
 .dashboard .dashboardContent {
-  width: 55%;
-  height: 100%;
-  padding: 2em;
-  background-color: #f4f4f4;
+    width: 55%;
+    height: 100%;
+    padding: 2em;
+    background-color: #f4f4f4;
 }
 
 .dashboard .dashboardContent * {
-  color: #1a1819;
+    color: #1a1819;
 }
 
 .dashboard .dashboardContent .dashboardContentHead {
-  width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .dashboard .dashboardContent .dashboardContentHead .date {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .dashboard .dashboardContent .dashboardContentHead .date svg {
-  padding: 0.5em;
-  width: 35px;
-  height: 35px;
-  background-color: #babce4;
-  border-radius: 5px;
-  margin-left: 20px;
+    padding: 0.5em;
+    width: 35px;
+    height: 35px;
+    background-color: #babce4;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 
 .dashboard .dashboardContent .dashboardContentHead .date svg path {
-  fill: #4e4cac;
+    fill: #4e4cac;
 }
 
 .dashboard .dashboardContent .dashboardContentGridContainer {
-  margin-top: 20px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
-  grid-gap: 20px;
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr) [5];
+    grid-template-columns: repeat(5, 1fr);
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
 }
 
 .dashboard .dashboardContent .dashboardContentGridContainer #one {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
-  grid-column: 1/-1;
-  min-height: 150px;
-  background-color: #f8e5e9;
-  border-radius: 20px;
-  color: #ff808b;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    min-height: 150px;
+    background-color: #f8e5e9;
+    border-radius: 20px;
+    color: #ff808b;
 }
 
 .dashboard .dashboardContent .dashboardContentGridContainer #two {
-  grid-row: 2/-1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-column: 1/3;
-  background-color: #f0f0f0;
-  color: #1a1819;
-  min-height: 300px;
-  border-radius: 10px;
+    grid-row: 2/-1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    background-color: #f0f0f0;
+    color: #1a1819;
+    min-height: 300px;
+    border-radius: 10px;
 }
 
 .dashboard .dashboardContent .dashboardContentGridContainer #three {
-  grid-row: 2/-1;
-  grid-column: 3/-1;
-  background-color: #f0f0f0;
-  color: #1a1819;
-  min-height: 300px;
-  border-radius: 10px;
+    grid-row: 2/-1;
+    grid-column: 3/-1;
+    background-color: #f0f0f0;
+    color: #1a1819;
+    min-height: 300px;
+    border-radius: 10px;
 }
 
 .dashboard .dashboardContent .bookings {
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 .dashboard .dashboardContent .bookings .bookingsHead {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .dashboard .dashboardContent .bookings .bookingsGridContainer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  grid-gap: 20px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
 }
 
 .dashboard .dashboardContent .bookings .bookingsGridContainer .booking {
-  background-color: #9698d5;
-  padding: 0.7em 1em;
-  border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
+    background-color: #9698d5;
+    padding: 0.7em 1em;
+    border-radius: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
 }
 
 .dashboard .dashboardContent .bookings .bookingsGridContainer .booking .bookingBadge {
-  width: 60px;
-  height: 60px;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  margin-right: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-weight: 700;
-  font-size: 24px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .dashboard .profile {
-  width: 25%;
-  height: 100%;
-  padding: 2em;
+    width: 25%;
+    height: 100%;
+    padding: 2em;
 }
 
 .dashboard .profile .profileInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .dashboard .profile .profileInfo .logout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .dashboard .profile .profileInfo .profileImg {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 20px auto;
-  background-color: #1a1819;
-  position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-color: #1a1819;
+    position: relative;
 }
 
 .dashboard .profile .profileInfo .profileImg .profileImgEditButton {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  bottom: 15px;
-  right: 0;
-  border-radius: 50%;
-  background-color: #4e4cac;
-  font-size: 1.5em;
-  line-height: 40px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 0;
+    border-radius: 50%;
+    background-color: #4e4cac;
+    font-size: 1.5em;
+    line-height: 40px;
 }
 
 .dashboard .profile .profileInfo h1,
 .dashboard .profile .profileInfo p {
-  text-align: center;
+    text-align: center;
 }
 /*# sourceMappingURL=dashboard.css.map */
